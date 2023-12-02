@@ -4,7 +4,7 @@ local meta = {}
 meta.__index = table
 setmetatable(ctable, meta)
 
-function ctable.random<T>(haystack:{T}): {T}
+function ctable.random(haystack)
     local length = #haystack
     
     return haystack[math.random(1, length)]
