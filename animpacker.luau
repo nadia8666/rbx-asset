@@ -51,3 +51,15 @@ function anims_in(str)
 		end
 	end
 end
+
+
+-- rough script for roblox-animation-transfer
+-- USAGE:
+--[[
+	print(anims_out()) -- Log a list of current animations
+
+	-- Process externally with RAT
+
+	anims_in([[id1 name1
+	id2 name2]]) -- Import and override animations
+]]
